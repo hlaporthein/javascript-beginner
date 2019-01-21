@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Array Iteration</title>
+</head>
+<body>
+
+	<div id="result"></div>
+
+
+	<script type="text/javascript">
+		
+		var points = [20, 5, 30, 40, 35];
+		var  allOver10 = points.some(myFunction);
+
+		console.log(allOver10);
+
+		function myFunction(value, index, array) {
+			return value > 10;
+		}
+
+	</script>
+
+</body>
+</html>

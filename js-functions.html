@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Function</title>
+</head>
+<body>
+
+	<h1 id="head1">Result?</h1>
+
+	<button onclick="greeting('kyaw kyaw')">Greet me</button>
+
+	<script type="text/javascript">
+		
+		function greeting($name) {
+			alert("Hello, " + $name);
+		}
+
+		function calculateMe($value1, $value2, $value3){
+			return $value1 + $value2 + $value3;
+		}
+
+		var calculateResult = calculateMe(2353,444,2222);
+
+		document.getElementById("head1").innerHTML = calculateResult;
+
+
+
+		function calculateMiles($mile) {
+			return $mile * 5280;
+		}
+
+
+		function poundToKg() {
+			return $pound * 2.205;
+		}
+
+		alert(calculateMiles(6));
+
+	</script>
+
+</body>
+</html>

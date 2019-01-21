@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction</title>
+</head>
+<body>
+
+	<h3 id="heading3">Hello Javascript</h3>
+
+	<button onclick='document.getElementById("heading3").style.fontSize="20px"'> Change Font 20px</button>
+	<button onclick="document.getElementById('heading3').style.fontSize='50px'">Change font 50px</button>
+
+	<button onclick="document.getElementById('heading3').style.display='block'">Show Heading</button>
+	<button onclick="document.getElementById('heading3').style.display='none'">Hide Heading</button>
+
+
+	<br/><hr/>
+
+	<div id="container">Hello World</div>
+
+	<button onclick='document.getElementById("container").innerHTML = "Learning Javascript"'>Change Text</button>
+
+	<br/><hr/>
+
+
+	<img id="thumbnail" src="https://picsum.photos/300/300?image=1084">
+
+	<button onclick="document.getElementById('thumbnail').src='https://picsum.photos/300/300?image=1080'">Change Image</button>
+
+	<br/><hr/>
+
+</body>
+</html>

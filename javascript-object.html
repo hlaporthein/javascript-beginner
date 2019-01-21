@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Objects</title>
+</head>
+<body>
+
+	<h2 id="head2">Personal Data?</h2>
+
+
+	<script type="text/javascript">
+
+		//Person
+		//firstName -> property
+		//lastName -> property
+		//age -> property
+		//eyeColor -> property
+		
+		//getFullName -> method 
+		
+
+		var Person = {
+			firstName: "Mg",
+			lastName: "Aye",
+			age: 28,
+			eyeColor: "blue",
+			getFullName: function() {
+				return this.firstName + " " +this.lastName;
+			}
+		};
+
+		console.log(Person["age"]);
+		console.log(Person.age);
+		// document.getElementById("head2").innerHTML = Person.getFullName();
+		
+
+		//Car => Object
+		//- model -> property
+		//- weight -> property
+		//- color -> property 
+		//- cartype -> property
+		
+		
+		//- start -> method
+		//- drive -> method
+		//- brake -> method
+		//- stop -> method
+		
+		//
+		// var car = {
+		// 	model: "X-Zander",
+		// 	weight: "1500",
+		// 	color: "white",
+		// 	cartype: "Mark II",
+		// 	drive: function() {
+		// 		return 'Car is driving';
+		// 	},
+		// 	brake: function() {
+		// 		return 'We have braked now!';
+		// 	}
+
+		// };
+
+		// console.log(car.brake());
+
+
+
+
+	</script>
+	
+
+</body>
+</html>
