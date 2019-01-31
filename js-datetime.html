@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascrpt Datetime</title>
+</head>
+<body>
+
+	<div id="result"></div>
+	<div id="result1"></div>
+	<div id="result2"></div>
+
+
+	<script type="text/javascript">
+		
+		var d = new Date(); //first variable
+		d = new Date(2018, 10, 20, 10,33, 50, 0); //second variable
+		d = new Date(2018, 10, 20, 10,33, 50); //year,month,day,hour,minutes,seconds
+		d = new Date(2018, 10, 20, 10,33); //year,month,day,hour,minutes
+		d = new Date(2018, 10, 20, 10); //year,month,day,hour
+		d = new Date(2018, 10, 20); //year,month,day
+		d = new Date(2018, 10); //year,month
+		d = new Date(90, 10, 23); //year
+		d = new Date("October 14, 2018 11:10:00");
+		d = new Date(-86400000);
+
+		// document.getElementById("result").innerHTML = d;
+		document.getElementById("result").innerHTML = d.toString();
+		document.getElementById("result1").innerHTML = d.toUTCString();
+		document.getElementById("result2").innerHTML = d.toDateString(); //readable format
+
+	</script>
+
+
+</body>
+</html>
